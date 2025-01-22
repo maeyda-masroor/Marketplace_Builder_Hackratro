@@ -1,0 +1,11 @@
+﻿id,description,test steps,expected result,Actual result,status,severity level,assigned,remark
+T001,should lead to home page,"on page load up , there should / bar for home page about page",open -> localhost:3000 and navigate to about page home,same as expected result,passed,low,,
+T002,should lead to about page,on making route the page is gone to about page,open -> localhost:3000 and navigate to about page home,same as expected result,passed,,,
+TOO3,dynamic routing,on clicking category -> id -> product id,open -> localhost:3000 and navigate to /about page ,same as expected result,,,,
+TOO4,add to cart ,on clicking category -> id -> product id->add to cart,open -> localhost:3000 and navigate to add to cart,product add to cart,failed,,,
+T005,filter product,on clicking search button on navbar there is search,open -> localhost:3000 and navigate to /navbar click on search button,product add to cart,,,,
+T006,pagination,on clicking category -> id -> product id->clicking pagination,open -> localhost:3000 and navigate to /about page -> clicking on 1 will lead to second pagination,,,,,
+T007,Delete cart ,open->localhost->category->product->productdetail,open -> localhost:3000 and navigate to /about page ,,failed,,,
+T008,home page responsive,go to brownser inspect,,responsive,passed,,,
+T009,About page,yes,,,,,,
+T0010,cART PAGE,yes,,respionsive,,,,
